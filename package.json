@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "lerna bootstrap"
+    
   },
   "keywords": [
     "security",
